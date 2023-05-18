@@ -6,4 +6,12 @@
     for ($indice=0; $indice < 3; $indice++) { 
         echo "Produto índice $indice: $produtos[$indice].\n";
     }
+
+    $a = 1;
+
+    while ($a <= 10) {
+        echo "#$a" . PHP_EOL;
+        $a += 1;
+    }
+
 ?>  
